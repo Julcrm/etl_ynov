@@ -1,0 +1,39 @@
+# ── Secrets ──────────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ──────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+
+# ── Claude context ────────────────────────────────────────────────────────────
+.claude/
+
+# ── Data générée & sources ────────────────────────────────────────────────────
+data/
+sources/
+
+# ── Infra Docker (non nécessaire pour le portfolio docs) ─────────────────────
+docker-compose.yml
+Makefile
+README.md
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# ── MkDocs cache ─────────────────────────────────────────────────────────────
+.cache/
